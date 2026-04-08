@@ -5,23 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=addclosebackspaceremove" />
 </head>
 <body>
     <main>
         <section id="num"></section>
         <section id="teclado">
             <div id="delete" class="cordestaque">C</div>
-            <div id="backspace" class="cordiferente">BS</div>
-            <div id="divsao" class="cordiferente">div</div>
-            <div id="multi" class="cordiferente">multi</div>
+            <div id="backspace" class="cordiferente">
+                <span class="material-symbols-outlined">backspace</span>
+            </div>
+            <div id="divisao" class="cordiferente">&divide</div>
+            <div id="multi" class="cordiferente">
+                <span class="material-symbols-outlined">close</span>
+            </div>
             <div id="sete">7</div>
             <div id="oito">8</div>
             <div id="nove">9</div>
-            <div id="menos" class="cordiferente">menos</div>
+            <div id="menos" class="cordiferente">
+                <span class="material-symbols-outlined">remove</span>
+            </div>
             <div id="nove">4</div>
             <div id="nove">5</div>
             <div id="nove">6</div>
-            <div id="mais" class="cordiferente">mais</div>
+            <div id="mais" class="cordiferente">
+                <span class="material-symbols-outlined">add</span>
+            </div>
             <div id="nove">1</div>
             <div id="nove">2</div>
             <div id="nove">3</div>
@@ -30,5 +39,7 @@
             <div id="ponto">.</div>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>

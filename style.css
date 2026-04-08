@@ -24,6 +24,7 @@ body {
 
 main {
     background-color: var(--color2);
+    color: white;
     width: 400px;
     height: 550px ;
     margin-top: 20px;
@@ -47,10 +48,21 @@ main {
 
 div {
     background-color: var(--color3);
-    color: white;
     border-radius: 50px;
     display: grid;
     place-content: center;
+    cursor: pointer;
+    transition: bacground-color, 0.3s;
+}
+
+div:active {
+    background-color: white;
+    color: var(--black);
+
+}
+
+#divisao {
+    font-size: 1.3em;
 }
 
 #igual {
