@@ -1,0 +1,70 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #004C50;
+    --color2: #00939C;
+    --color3: #10ABB4;
+    --color4: #9C3E00;
+    --color5: #502000;
+    --black: rgba(2, 2, 2, 0.712);
+}
+
+body {
+    background-color: var(--color1);
+    font: normal 1.4em arial;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    background-color: var(--color2);
+    width: 400px;
+    height: 550px ;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#num {
+    background-color: var(--black);
+    width: 380px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#teclado {
+    margin-top: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template: repeat(5, 80px) / repeat(4, 1fr);
+}
+
+div {
+    background-color: var(--color3);
+    color: white;
+    border-radius: 50px;
+    display: grid;
+    place-content: center;
+}
+
+#igual {
+    grid-area: 4/4/6/5;
+}
+
+#zero {
+    grid-area: 5/1/6/3;
+}
+
+.cordestaque {
+    background-color: var(--color5);
+}
+
+.cordiferente {
+    background-color: var(--color4);
+}
